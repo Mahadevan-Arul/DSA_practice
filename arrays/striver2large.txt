@@ -1,0 +1,32 @@
+second largest
+
+int print2largest(vector<int> &arr) {
+        // Code Here
+        
+        int M,sM;
+        M=INT_MIN;
+        sM=INT_MIN;
+        
+        if (arr.size()<=1){
+            return -1;
+        }
+        
+        for (int i =0 ;i< arr.size();i++){
+            if (arr[i]>M){
+                sM=M;
+                M=arr[i];
+                
+            }
+            
+            else if (arr[i] < M && arr[i] > sM ) 
+            {
+                sM = arr[i];
+            }
+        }
+        
+        if (sM==INT_MIN){
+            return -1;
+        }
+        
+        return sM;
+    }
