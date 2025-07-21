@@ -1,5 +1,5 @@
 # DSA_practice
 
-Topics updated sorting , hashing 
+Topics updated Sorting , Hashing 
 
-currently ongoing arrays
+currently ongoing Arrays
