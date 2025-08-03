@@ -2,5 +2,5 @@
 
 Topics updated Sorting , Hashing 
 
-currently ongoing Arrays
+currently ongoing Patterns,Arrays
 
